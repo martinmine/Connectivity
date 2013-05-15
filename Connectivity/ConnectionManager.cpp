@@ -1,7 +1,7 @@
 using namespace System::Net;
 
-#include "ConnectionManager.h"
 #include "Stdafx.h"
+#include "ConnectionManager.h"
 
 void Connectivity::ConnectionManager::InitWinsock()
 {

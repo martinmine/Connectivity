@@ -1,10 +1,6 @@
-#include "ConnectionManager.h"
 #include "Stdafx.h"
+#include "ConnectionManager.h"
 
-void __stdcall EmptyRoutine(DWORD dwError, DWORD cbTransferred, LPWSAOVERLAPPED lpOverlapped, DWORD dwFlags)
-{
-	Console::WriteLine("routine");
-}
 
 Connectivity::ConnectionInformation::ConnectionInformation(unsigned int connectionID, ConnectionManager ^ manager, 
 														   IDataParser ^ parser, unsigned char * buffer, 
@@ -223,4 +219,3 @@ unsigned int Connectivity::ConnectionInformation::GetConnectionID()
 {
 	return this->connectionID;
 }
-

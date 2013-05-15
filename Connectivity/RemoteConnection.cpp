@@ -1,5 +1,5 @@
-#include "ConnectionManager.h"
 #include "Stdafx.h"
+#include "ConnectionManager.h"
 
 Connectivity::RemoteConnection::RemoteConnection()
 {

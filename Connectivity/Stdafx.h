@@ -4,7 +4,4 @@
 
 #pragma once
 
-#ifdef _DEBUG
-#define _CRTDBG_MAP_ALLOC
-#define _INC_MALLOC
-#endif
+

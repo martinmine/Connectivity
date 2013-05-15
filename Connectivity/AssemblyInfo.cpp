@@ -16,7 +16,7 @@ using namespace System::Security::Permissions;
 [assembly:AssemblyConfigurationAttribute("")];
 [assembly:AssemblyCompanyAttribute("")];
 [assembly:AssemblyProductAttribute("Connectivity")];
-[assembly:AssemblyCopyrightAttribute("Copyright (c)  2012")];
+[assembly:AssemblyCopyrightAttribute("Copyright (c)  2013")];
 [assembly:AssemblyTrademarkAttribute("")];
 [assembly:AssemblyCultureAttribute("")];
 

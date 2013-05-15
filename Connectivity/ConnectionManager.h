@@ -10,7 +10,6 @@
 
 #include <iostream>
 
-#include "ConnectionInformation.h"
 #include "IDataParser.h"
 
 using namespace System;
@@ -28,7 +27,8 @@ const int BACKLOG = 500;			//Backlog queue length
 const int BUFFER_SIZE = 2048;		//Buffer size for receiving data
 const int ADDRESS_SIZE = 16;		//Size of the address struct
 
-void __stdcall EmptyRoutine(DWORD dwError, DWORD cbTransferred, LPWSAOVERLAPPED lpOverlapped, DWORD dwFlags);
+//void __stdcall EmptyRoutine(DWORD dwError, DWORD cbTransferred, LPWSAOVERLAPPED lpOverlapped, DWORD dwFlags);
+
 
 namespace Connectivity  
 {
